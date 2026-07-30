@@ -1,15 +1,15 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Alchemy Academy</title>
+  <title>Archmon — Creature Fusion RPG</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 
-<body class="bg-work">
+<body class="bg-work archmon-project">
   <div class="browser-bar">
-    <div class="browser-title">Odin's Web Space - Alchemy Academy</div>
+    <div class="browser-title">Odin's Web Space - Archmon</div>
     <div class="browser-menu">
       <span>File</span><span>Edit</span><span>View</span><span>Go</span><span>Communicator</span><span>Help</span>
     </div>
@@ -20,7 +20,7 @@
       <button class="btn-3d">Reload</button>
       <div class="address">
         <span class="label">Location:</span>
-        <input value="http://www.OdinPortfolio.com/Odin/portfolio/alchemy_academy.html" />
+        <input value="http://www.OdinPortfolio.com/Odin/portfolio/archmon.html" />
       </div>
     </div>
   </div>
@@ -30,13 +30,44 @@
       <tr>
         <td class="page-inner">
 
-          <marquee scrollamount="4" class="marq">
-            Build pets • Fuse monsters • Defeat professors • Become the greatest alchemist in the academy!
-          </marquee>
+          <div class="marq" role="status">
+            BUILD • EXPLORE • BATTLE • EVOLVE — THE LATEST ARCHMON VERTICAL SLICE IS PLAYABLE NOW
+          </div>
 
-          <div class="big-title">Alchemy Academy</div>
+          <div class="archmon-hero">
+            <span class="archmon-version">PLAYABLE VERTICAL SLICE // UNITY 6</span>
+            <div class="big-title">ARCHMON</div>
+          </div>
           <div class="subtitle90">
-            A turn-based monster-fusion roguelike RPG set in a magical academy
+            Build creatures from recovered body parts, lead a four-monster squad, and survive branching expeditions.
+          </div>
+
+          <section class="archmon-pillars" aria-label="Archmon core gameplay">
+            <article>
+              <span>01</span>
+              <strong>ASSEMBLE</strong>
+              <p>Drag recovered heads, arms, legs, backs, and tails into the workshop. Every part changes the creature's look, stats, element, and skills.</p>
+            </article>
+            <article>
+              <span>02</span>
+              <strong>EXPLORE</strong>
+              <p>Choose a route through seeded, branching expeditions filled with battles, elites, treasure, events, rest stops, and bosses.</p>
+            </article>
+            <article>
+              <span>03</span>
+              <strong>COMMAND</strong>
+              <p>Take a custom four-Archmon squad into positional turn-based battles powered by one shared team mana pool.</p>
+            </article>
+          </section>
+
+          <div class="box-3d playable-feature" id="play">
+            <div class="box-title">Play the Latest Archmon Build</div>
+            <div class="playable-intro">
+              <div><span class="live-dot">UNITY WEBGL</span><h2>Build a squad. Choose a path. Survive the trial.</h2><p>The current vertical slice includes the world map, academy, monster workshop, team editor, expedition flow, and tactical battle scene.</p></div>
+              <a class="game-button" href="archmon.html">Launch full game</a>
+            </div>
+            <iframe class="game-embed unity-game-embed" src="archmon-unity/index.html" title="Archmon full Unity WebGL game" loading="lazy" allow="autoplay; fullscreen" allowfullscreen></iframe>
+            <p class="unity-build-note">This is the complete Unity WebGL build from the Archmon project. Initial download is approximately 130 MB.</p>
           </div>
 
           <hr class="hr-3d" />
@@ -52,28 +83,28 @@
                   <div class="nav">
                     <a class="link-3d" href="index.html">Home (About Me)</a>
                     <a class="link-3d" href="project_horror.html">DeadCast</a>
-                    <a class="link-3d" href="project_retro.html">Alchemy Academy</a>
+                    <a class="link-3d" href="project_retro.html">Archmon</a>
                   </div>
                 </div>
 
                 <div class="box-3d">
                   <div class="box-title">Project Info</div>
-                  <p class="p90"><strong>Genre:</strong><br>Turn-Based RPG / Monster Fusion / Roguelike</p>
-                  <p class="p90"><strong>Setting:</strong><br>Fantasy Academy / Elemental Wilderness</p>
-                  <p class="p90"><strong>Core Theme:</strong><br>Alchemy, Fusion, Growth, Strategy</p>
-                  <p class="p90"><strong>Platform:</strong><br>PC</p>
+                  <p class="p90"><strong>Genre:</strong><br>Creature Builder / Tactical RPG / Roguelike Expedition</p>
+                  <p class="p90"><strong>Format:</strong><br>Single-player vertical slice</p>
+                  <p class="p90"><strong>Core Theme:</strong><br>Assembly, adaptation, route strategy</p>
+                  <p class="p90"><strong>Platform:</strong><br>PC / WebGL</p>
                 </div>
 
                 <div class="box-3d">
                   <div class="box-title">Quick Features</div>
                   <ul class="p90">
-                    <li>Custom pet fusion</li>
-                    <li>Body-part skill design</li>
+                    <li>Drag-and-drop monster assembly</li>
+                    <li>Part-driven stats and skills</li>
+                    <li>Four-monster squad building</li>
                     <li>Shared team mana</li>
-                    <li>Permanent pet death</li>
-                    <li>Elemental combat</li>
-                    <li>Professor challenges</li>
-                    <li>Academy progression</li>
+                    <li>Positional tactical combat</li>
+                    <li>Seeded branching expeditions</li>
+                    <li>Four difficulty bands</li>
                   </ul>
                 </div>
 
@@ -84,8 +115,9 @@
                     <li>Combat Design</li>
                     <li>Fusion System Design</li>
                     <li>Skill System Design</li>
+                    <li>Expedition & Progression Design</li>
                     <li>Worldbuilding</li>
-                    <li>3D Art / Visual Development</li>
+                    <li>2D / 3D Visual Development</li>
                   </ul>
                 </div>
 
@@ -93,8 +125,8 @@
                   <div class="box-title">Tools Used</div>
                   <ul class="p90">
                     <li>Unity</li>
-                    <li>Maya</li>
-                    <li>Substance Painter</li>
+                    <li>Unity 6 / URP 2D</li>
+                    <li>Maya / Substance Painter</li>
                     <li>Photoshop</li>
                   </ul>
                 </div>
@@ -105,7 +137,7 @@
                 <td>
 
                   <div class="box-3d">
-                    <div class="box-title">What I've Done So Far
+                    <div class="box-title">Development Reel
                     </div>
                     <div class="video-wrap">
                       <video controls width="100%" poster="images/alchemy_video_cover.jpg">
@@ -118,7 +150,7 @@
                   <div class="box-3d">
                     <div class="box-title">Overview</div>
                   <p class="p90">
-                   Alchemy Academy is a turn-based monster-fusion roguelike RPG in which the player begins as a newly enrolled alchemist student and gradually grows into a master alchemist. The core loop centers on exploring elemental wilderness maps, defeating monsters, gathering alchemical materials, fusing custom pets, and using those pets to progress through academy trials, professor challenges, and main story encounters.
+                   Archmon is a 2D creature-building tactical RPG about turning recovered monster parts into a highly personal combat squad. Players assemble each creature in the workshop, compare the stats and skills created by their choices, organize a four-Archmon team, and then take that team through a branching expedition where every route changes the risk and reward.
 
                   </p>
                 </div>
@@ -126,32 +158,33 @@
                  <div class="box-3d">
                   <div class="box-title">Gameplay Loop</div>
                   <p class="p90">
-                    The core loop is designed around repeated growth and experimentation:
+                    The latest design connects collection, construction, route planning, and combat into one repeatable run:
                   </p>
                   <p class="p90">
-                    <strong>Explore → Gather Materials → Fuse Pets → Strengthen Team → Clear Story Challenges → Unlock New Areas → Explore Again</strong>
+                    <strong>Choose Difficulty → Plot a Route → Win Encounters → Recover Parts → Assemble Archmon → Edit the Squad → Push Toward the Boss</strong>
                   </p>
                 </div>
 
                 <div class="box-3d">
                   <div class="box-title">Main Features</div>
                   <ul class="p90">
-                    <li><strong>Monster Fusion System:</strong> Create pets by combining body, head, legs, arms, back, and tail from different monsters.</li>
-                    <li><strong>Body-Part-Driven Skills:</strong> Each part grants stats, abilities, and influences future skill learning.</li>
-                    <li><strong>Shared Mana System:</strong> The whole team draws from one mana pool, making every action a strategic choice.</li>
-                    <li><strong>Academy Progression:</strong> Challenge classmates and professors to unlock stronger content and new regions.</li>
+                    <li><strong>Monster Workshop:</strong> Drag inventory parts into compatible slots and see the layered creature, calculated stats, element, and skills update immediately.</li>
+                    <li><strong>Branching Expeditions:</strong> Seeded maps contain battle, elite, treasure, event, rest, and boss nodes across Apprentice, Adept, Expert, and Master difficulty.</li>
+                    <li><strong>Four-Archmon Team Editor:</strong> Build a roster before committing to a route and tune the squad around elemental and skill synergy.</li>
+                    <li><strong>Shared Mana Combat:</strong> The entire team spends from one resource pool, so every attack, support action, and rest decision competes for the same mana.</li>
                   </ul>
                 </div>
 
                 <div class="box-3d">
                   <div class="box-title">Combat System</div>
                   <p class="p90">
-                    Combat is a turn-based battle system with positional movement, speed-based turn order, physical and magical damage, and elemental strengths and weaknesses.
+                    Combat is a four-versus-four tactical system with positional movement, speed-based turn order, physical and magical damage, status effects, and elemental matchups.
                   </p>
                   <ul class="p90">
                     <li>All pets act once per round</li>
                     <li>Turn order is determined by Speed</li>
-                    <li>The whole team gains 50 Mana each turn</li>
+                    <li>Every skill uses a shared team mana pool</li>
+                    <li>Resting grants 10 shared Mana instead of attacking</li>
                     <li>All skill costs are paid from one shared mana pool</li>
                     <li>Players must balance offense, defense, setup, and support</li>
                   </ul>
@@ -161,7 +194,7 @@
                 <div class="box-3d">
                   <div class="box-title">Fusion System</div>
                   <p class="p90">
-                    Fusion is the heart of the game. Every pet is built from multiple body parts:
+                    Assembly is the heart of the game. Every Archmon is built from multiple body parts:
                     <strong>Body, Head, Legs, Arms, Back, and Tail</strong>.
                   </p>
                   <p class="p90">
@@ -169,15 +202,6 @@
                   </p>
                 </div>
 
-                <div class="box-3d">
-                  <div class="box-title">Fusion Room</div>
-                  <table width="100%" cellpadding="6" cellspacing="0" border="0" class="img3">
-                    <tr>
-                      <td><img src="images/alchemy_fusion.jpg" alt="Fusion screenshot"></td>
-                    </tr>
-                  </table>
-                </div>
-                
                 <div class="box-3d">
                   <div class="box-title">Skill Design / Body Part Skills</div>
                   <p class="p90">
@@ -204,7 +228,6 @@
 
                     <tr>
                       <td>
-                        <img src="images/part_ice_lizard_head.png" alt="Ice Lizard Head" class="part-img"><br>
                         <strong>Ice Lizard's Head</strong>
                       </td>
                       <td>Water</td>
@@ -220,7 +243,6 @@
 
                     <tr>
                       <td>
-                        <img src="images/part_fire_slime_feet.png" alt="Fire Slime Feet" class="part-img"><br>
                         <strong>Fire Slime's Feet</strong>
                       </td>
                       <td>Fire</td>
@@ -236,7 +258,6 @@
 
                     <tr>
                       <td>
-                        <img src="images/part_wing_lion_tail.png" alt="Wing Lion Tail" class="part-img"><br>
                         <strong>Wing Lion's Tail</strong>
                       </td>
                       <td>Metal</td>
@@ -252,7 +273,6 @@
 
                     <tr>
                       <td>
-                        <img src="images/part_wood_tyrant_claw.png" alt="Wood Tyrannosaur Claw" class="part-img"><br>
                         <strong>Wood Tyrannosaur Claw</strong>
                       </td>
                       <td>Wood</td>
@@ -268,7 +288,6 @@
 
                     <tr>
                       <td>
-                        <img src="images/part_guard_body.png" alt="Guard Basic Body" class="part-img"><br>
                         <strong>Guard Basic Body</strong>
                       </td>
                       <td>Neutral</td>
@@ -289,7 +308,7 @@
                 <div class="box-3d">
                   <div class="box-title">Skill Rarity & Level-Up Growth</div>
                   <p class="p90">
-                    Skills in <strong>Alchemy Academy</strong> are divided into rarity tiers:
+                    Skills in <strong>Archmon</strong> are divided into rarity tiers:
                     <strong>Common, Uncommon, Rare,</strong> and <strong>Legendary</strong>.
                   </p>
                   <p class="p90">
@@ -356,15 +375,6 @@
 
 
                 <div class="box-3d">
-                  <div class="box-title">Map</div>
-                  <table width="100%" cellpadding="6" cellspacing="0" border="0" class="img3">
-                    <tr>
-                      <td><img src="images/alchemy_map.jpg" alt="Map screenshot"></td>
-                    </tr>
-                  </table>
-                </div>
-
-                <div class="box-3d">
                   <div class="box-title">Talent</div>
                   <ul class="p90">
                     <li>Talent measures the quality of a pet’s long-term growth. Talent ranges from 0 to 20, where 0 is the lowest quality and 20 is the highest.</li>
@@ -387,5 +397,6 @@
       </tr>
     </table>
   </center>
+  <script src="script.js"></script>
 </body>
 </html>

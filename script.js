@@ -98,3 +98,17 @@
     }
   });
 })();
+
+// Make the decorative browser toolbar useful.
+(function browserToolbar() {
+  const buttons = document.querySelectorAll(".browser-toolbar .btn-3d");
+  if (buttons.length < 4) return;
+  buttons[0].addEventListener("click", () => history.back());
+  buttons[1].addEventListener("click", () => history.forward());
+  buttons[2].addEventListener("click", () => { window.location.href = "index.html"; });
+  buttons[3].addEventListener("click", () => window.location.reload());
+  document.querySelectorAll(".address input").forEach((input) => {
+    input.readOnly = true;
+    input.setAttribute("aria-label", "Current portfolio location");
+  });
+})();
